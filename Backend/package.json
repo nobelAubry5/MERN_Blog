@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Aubry Nobel Niyonkuru",
+  "license": "ISC",
+  "description": "Créer un site web de blog avec des opérations CRUD sur les histoires, permettant les likes, ajoutant des histoires à une liste de lecture et permettant les commentaires en utilisant la pile MERN (MongoDB, Express.js, React.js, Node.js).",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
